@@ -1,0 +1,615 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.score-column{
+    color: white;
+}
+.team-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-two{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-one .image{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.team-two .image{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.live-score{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.stats .score:nth-child(1){
+    font-size: 23px;
+}
+
+.score{
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 2.5rem;
+    font-size: 20px;
+}
+
+.overs{
+    font-size: 10px;
+}
+
+.stats{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.team-two .stats{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.team-two .stats .score{
+    display: flex;
+    flex-direction: ;
+
+}
+
+.score .overs span{
+    font-size: 10px;
+    font-weight: bold;
+    
+
+}
+
+.score .overs p{
+    font-size: 16px;
+
+}
+
+
+.status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    border-radius: 15px;
+    gap: 10px;
+}
+.venue{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 1rem;
+}
+.venue-logo{
+    width: 0.9375rem;
+    height: 0.9375rem;
+}
+
+.match-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+
+.ball-image{
+    width: 0.9375rem;
+    height: 0.9375rem;
+}
+
+.score-column{
+    background: rgb(11,19,186);
+    background: linear-gradient(356deg, rgba(11,19,186,1) 14%, rgba(255,0,230,0.7274951240261729) 100%);
+}
+
+.status-image{
+    width: 0.9375rem;
+    height: 0.9375rem;
+}
+
+
+
+.teamlogo{
+    width: 3.75rem;
+    height: 3.75rem;
+    
+}
+
+.live-score{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team{
+    gap: 10px;
+}
+
+
+.target-status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.venue{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.player-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    gap: 0.625rem;
+}
+
+.current-batters , .current-bowlers{
+    display: flex;
+    flex-direction: row;
+    background-color: white; 
+    border-radius: 0.3125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.625rem;
+}
+
+.see-more{
+    color: rgb(241, 15, 185);
+    font-weight: bold;
+}
+
+.latest-updates{
+    font-weight: bold;
+}
+
+
+.batsmen-one , .batsmen-two , .batsmen-current-score , .bowler-one , .bowler-two , .bowler-current-score , .bowler-stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.batsmen-current-score , .bowler-current-score , .bowled-overs{
+    color: rgb(241, 15, 185);
+    font-weight: bold;
+    gap: 5px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+}
+
+
+.news-photo{
+    width: 100%;
+    height: 12.5rem;
+}
+
+.news-card{
+    background-color: #F5F5F5
+    ;
+}
+
+.news-card:nth-child(1){
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+.news-column .news-card{
+    border-radius: 10px;
+}
+
+
+.news-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.news-card:nth-child(1) .news-content .main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    
+    gap: 10px;
+}
+.description{
+    font-size: 16px;
+}
+.news-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+        line-clamp: 2;
+
+        /* ai generated code */
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+
+}
+
+.date-time{
+ 
+    font-size: 14px;
+    
+}
+
+.news-column .news-card:nth-child(1) .news-content .secondary-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.news-column .news-card:nth-child(1) .news-content .secondary-content .share{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+.news-card .news-content .main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    text-overflow: ellipsis;
+    gap: 10px;
+}
+
+
+.news-card .news-content .secondary-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+.news-card .news-content .secondary-content .share{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.news-column .news-card:nth-child(1) .new-image .news-photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+.new-image{
+    background-color: #e6edf0;
+    background-image: linear-gradient(180deg, rgba(230, 237, 240, 1) 0%, rgba(3, 3, 0, 1) 70%);
+}
+
+.news-photo{
+    height: 100%;
+    background-color: #e6edf0;
+    background-image: linear-gradient(180deg, rgba(230, 237, 240, 1) 0%, rgba(3, 3, 0, 1) 70%);
+    border-radius: 10px;
+}
+.news-column{
+    padding: 10px;
+}
+
+.news-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.news-photo{
+    width: 8.125rem;
+}
+
+.new-image{
+    height: 110%;
+}
+
+.news{
+    color: #646461
+}
+
+
+
+
+
+@media screen and (min-width: 768px)  {
+    .card-column{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+    .news-photo{
+        width: 100%;
+    }
+    
+    .news-column .news-card:not(:nth-child(-n+2)) {
+        width: 23.3%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .news-column .news-card:not(:nth-child(-n+2)) .new-image{
+        
+        width: 100%;
+        height: 110%;
+    }
+
+    .card-column{
+        justify-content: flex-start;
+    }
+    .news-column .news-card:nth-child(-n+2) {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        overflow: hidden;
+    }
+    .news-column .news-card:nth-child(-n+2) .new-image .news-photo{
+        width: 100%;
+        height: 110%;
+        object-fit: cover;
+        
+    }
+
+    .news-column .news-card:nth-child(-n+2) .news-content {
+        position: absolute;
+        bottom:0;
+        color: azure;
+        row-gap: 0;
+        background: rgb(39,9,135);
+        background: linear-gradient(0deg, rgba(39,9,135,1) 0%, rgba(40,10,156,0.15846932034532568) 68%);
+    }
+    
+    .news-column .news-card:nth-child(-n+2) .news-content .main-content{
+        width: 100%;
+        height: 100%
+    
+    }
+    .news-column .news-card:nth-child(-n+2) .news-content .secondary-content{
+        width: 100%;
+        height: 100%;
+        gap: 75%;
+
+    }
+    .news-column .news-card:nth-child(-n+2) .new-image{
+        width: 100%;
+        height: 110%;
+    }
+    .news-column .news-card:nth-child(-n+2) .share{
+        filter: invert(100%);
+    }
+    .player-stats{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:5px;
+        margin-bottom: 20px;
+       
+    }
+    .batters , .bowlers{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 5px;
+        width: 50%;
+        
+    }
+    .header{
+        width:94%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;  
+    }
+    .news-content{
+        width: 100%;
+    }
+    .team{
+        display: flex;
+        justify-content: center;
+        gap: 0%;
+    }
+    .secondary-content{
+        justify-content: space-around;
+        width: 100%;
+        gap: 30%;
+    }
+    .main-content{
+        width: 80%;
+    }
+
+    .team{
+        gap: 2rem;
+    }
+
+    .news-card:nth-child(1){
+        width: 48%;
+        height: 100%;
+    }
+    .news-card:nth-child(2){
+        width: 48%;
+        height: 100%;
+    }
+
+    
+}
+@media only screen and (min-width: 1024px){
+    .team{
+        gap: 2rem;
+    }
+    .card-column{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 10px;
+        
+    }
+    .secondary-content{
+        width: 90%;
+    }
+    .main-content{
+        width: 90%;
+        
+    }
+    .team{
+        justify-content: center;
+    }
+    .news-column .news-card:nth-child(-n+2) .share{
+        filter: invert(100%);
+    }
+    .news-column .news-card:not(:nth-child(-n+2)) {
+        width: 23.7%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .news-column .news-card:not(:nth-child(-n+2)) .new-image{ 
+        width: 100%;
+        height: 110%;
+    }
+    .news-column .news-card:nth-child(-n+2) {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        overflow: hidden;
+        width: 48%;
+    }
+    .news-column .news-card:nth-child(-n+2) .new-image .news-photo{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .news-column .news-card:nth-child(-n+2) .news-content {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        bottom:0;
+        color: azure;
+        row-gap: 0;
+        background: rgb(39,9,135);
+        background: linear-gradient(0deg, rgba(39,9,135,1) 0%, rgba(40,10,156,0.15846932034532568) 68%);
+    }
+    
+    .news-column .news-card:nth-child(-n+2) .news-content .main-content{
+        width: 90%;
+        height: 40px;
+    
+    }
+    .news-column .news-card:nth-child(-n+2) .news-content .secondary-content{
+        width: 97%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .news-column .news-card:nth-child(-n+2) .new-image{
+        width: 100%;
+        height: 110%;
+    }
+    .player-stats{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:5px;
+        margin-bottom: 20px;
+       
+    }
+    .batters , .bowlers{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 5px;
+        width: 50%;
+        margin-bottom: 50px;
+        
+    }
+    .teamlogo {
+        width: 5.625rem;
+        height: 5.625rem;
+    }
+}
